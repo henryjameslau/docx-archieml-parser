@@ -1,0 +1,17 @@
+{
+  "name": "docx-archieml-parser",
+  "version": "1.0.0",
+  "description": "Use mammoth to convert .docx to text and parse it with archieml",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "author": "Henry Lau",
+  "license": "MIT",
+  "dependencies": {
+    "archieml": "^0.5.0",
+    "htmlparser2": "^9.1.0",
+    "mammoth": "^1.6.0"
+  },
+  "type": "module"
+}
